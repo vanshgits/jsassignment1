@@ -1,0 +1,48 @@
+/* Overall page styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8; /* Light gray background */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center items horizontally */
+    justify-content: flex-start; /* Align items to the top */
+    min-height: 100vh;
+}
+
+/* Story container styling */
+#story-container {
+    background-color: #f0f0f0; /* Light gray background for the story container */
+    padding: 30px; /* Padding around the story content */
+    border-radius: 15px; /* Rounded corners for a softer appearance */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    width: 450px; /* Fixed width for the story container */
+    text-align: justify; /* Justify text for better readability */
+    color: #444; /* Slightly darker text color */
+    margin-top: 20px; /* Add some top margin for separation */
+}
+
+/* Header styling */
+h1 {
+    color: #e74c3c; /* Red color for the header text */
+    text-align: center; /* Center the header text */
+}
+
+/* Button styling */
+button {
+    padding: 12px 24px; /* Padding around the button text */
+    margin-top: 15px; /* Top margin for spacing */
+    font-size: 18px; /* Larger font size for better visibility */
+    cursor: pointer; /* Show pointer cursor on hover */
+    background-color: #3498db; /* Blue button color */
+    color: #fff; /* White text color */
+    border: none; /* No border for a clean look */
+    border-radius: 8px; /* Rounded corners for a softer appearance */
+    transition: background-color 0.3s ease; /* Smooth hover transition */
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #2980b9; /* Darker blue on hover for visual feedback */
+}
